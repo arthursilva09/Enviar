@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title></title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+	  <link href="{% static 'css/animate.css' %}" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="{% static 'css/stylehome.css' %}" rel="stylesheet">
+    <link href="{% static 'color/default.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<div class="wrapper">
+    
+    <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <div class="content">
+                  <div class="pull-middle">
+                    <h1 class="page-header">Bem-vindo a Ciência do Solo.</h1>
+                    <p class="lead">
+						Ambiente de aprendizado sobre Solos.
+					
+					</p>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form action="#" role="form">
+                                <div class="input-group">
+                                   <p> <b>Olá acadêmico do 3° módulo de Gestão Ambiental!!!</b></p>
+						<p><i>Este ambiente foi criado para auxiliá-lo no estudo da disciplina de Manejo Ecológico do Solo.</i></p>
+						<p><i>Vinculado ao Grupo de Estudo e Pesquisa Edafcos do Nordeste essa página irá levar os conteúdos da disciplina de MES até você!</i></p>
+						<p> <b>Aproveite!!!</b></p>                       
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                  </div>              
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-1 text-center mt-100 mb-100">
+                <div class="phone">
+                    <img class="img-responsive img-rounded" src="{% static 'img/solo.png' %}">
+                </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+      <h3 class="text-center">Introdução a Ciência do Solo - Conceitos</h3>
+      <hr/>
+	  <p class="text-justify" style="font-size:16px">
+        A Sociedade Brasileira de Ciência do Solo adota como conceito técnico-científico de solos:  O solo que classificamos é uma coleção de corpos naturais, constituídos por partes sólidas, líquidas e gasosas, tridimensionais, dinâmicos, formados por materiais minerais e orgânicos que ocupam a maior parte do manto superficial das extensões continentais do nosso planeta, contém matéria viva e podem ser vegetados na natureza onde ocorrem e, eventualmente, ter sido modificados por interferências antrópicas (SiBCS).
+      </p>
+	  
+	  
+      <p>
+        
+      </p>
+	  <p>
+        <div class="col-md-4 text-center">
+                    <div class="box">
+                        <div class="box-content">
+                            <h4 class="tag-title"> <i>Sensu Comum</i></h4>
+                            <hr />
+                            <p class="text-justify">Os solos sempre fizeram parte do cotidiano da humanidade, no entanto desde os tempos remotos até hoje esse recurso ainda é entendido por muitos, como um material pouco relevante, com denominações das mais variadas e até mesmo negativas, partindo de um conceito de sensu comum.</p>
+                            <br />
+                            <a href="ppc.html" class="btn btn-block btn-primary">Clique nos ícones ao lado para <br/>descobrir os principais nomes.</a>
+                        </div>
+                    </div>
+                </div>
+				  <div class="col-md-4">
+        <div class="material-button-anim">
+          <ul class="list-inline" id="options">
+            <li class="option">
+              <button class="material-button option1" type="button">
+                <span  aria-hidden="true">Terra</span>
+              </button>
+            </li>
+            <li class="option">
+              <button class="material-button option2" type="button">
+                <span  aria-hidden="true">Pó</span>
+              </button>
+            </li>
+            <li class="option">
+              <button class="material-button option3" type="button">
+                <span  aria-hidden="true">Barro</span>
+              </button>
+            </li>
+			
+          </ul>
+          <button class="material-button material-button-toggle" type="button">
+            <span class="fa fa-plus" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+	  
+	  <div class="col-md-4">
+        <div class="material-button-anim">
+          <ul class="list-inline" id="options">
+            <li class="optionn">
+              <button class="material-button option4" type="button">
+                <span  aria-hidden="true">Areia</span>
+              </button>
+            </li>
+            <li class="optionn">
+              <button class="material-button option5" type="button">
+                <span  aria-hidden="true">Pueira</span>
+              </button>
+            </li>
+            <li class="optionn">
+              <button class="material-button option6" type="button">
+                <span  aria-hidden="true">Sujeira</span>
+              </button>
+            </li>
+			
+          </ul>
+          <button class="material-button material-button-toggle2" type="button">
+            <span class="fa fa-plus" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+      </p>
+	  
+	  <p>
+        <div class="col-md-4 text-center">
+                    <div class="box">
+                        <div class="box-content">
+                            <h4 class="tag-title"> <i>Nível de Conhecimento e Interesse</i></h4>
+                            <hr />
+                            <p class="text-justify">Essa compreensão múltipla do conceito de solos tornou-se aplicável a cada nível de interesse e conhecimento por área abordada. Assim as diversas formas de compreensão dos solos geram os diversos conceitos, como o rigolito para o geólogo, o rejeito para o engenheiro de minas, leito de rodovias para o engenheiro de estradas, e a base para produção de alimentos, para o produtor rural.</p>
+                            <br />
+                            <a href="ppc.html" class="btn btn-block btn-primary">Clique nas imagens ao lado para <br/>descobrir o entendimento sobre <br/>o que é solo em cada profissão.</a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="col-md-4">
+					<ul class="list-inline">
+						<li> <img style="" data-toggle="popover" data-placement="left" data-content="Parte constituinte do globo terrestre." src="img/geologo.png" /> 
+							<br/>
+							<i>Geólogo</i>
+						</li>
+						
+						<li> 
+							<center><img data-toggle="popover" data-placement="right" data-content="Rejeito." src="img/eng_minas.png" /> 
+							<br/>
+							<i>Engenheiro de Minas</i></center>
+						</li>
+						
+						
+					</ul>
+					<br/>
+					<br/>
+					<ul class="list-inline">
+						<li> 
+							<center><img data-toggle="popover" data-placement="left" data-content="Leito de rodovias." src="img/eng_estrada.png" /> 
+							<br/>
+							<i>Engenhario Estrada</i></center>
+						</li>
+						<li> 
+							<center><img data-toggle="popover" data-placement="bottom" data-content="Base para produção agrícola." src="img/produt_rural.png" /> 
+							<br/>
+							<i>Produtor Rural</i></center>
+						</li>
+					</ul>
+				</div>
+				  
+	  
+	 
+      </p>
+      
+    </div>
+            </div>
+        </div>
+    </section>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<section class="section">
+		<div class="container">
+		 <h4 class="text-center"> <b><i>Evolução histórica dos conceitos sobre solo</i></b></h4><hr/>
+			<p style="font-size:16px">O entendimento de solos remonta desde os primeiros registros e crenças humanas, como tal o respeito dos deuses a esse elemento da natureza, o nome impresso a Adão (Adamah – terra ou solo em hebraico) nos registros bíblicos, assim, há uma relação direta com a sobrevivência e existência humana.</p>
+			<ul class="timeline">
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/edafologia.png" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Edafologia</h4>
+              <h4 class="subheading">Meio para crescimento e desenvolvimento das plantas</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Até meados de 1800 acreditava-se que as plantas alimentavam-se diretamente de uma parte do solo, do húmus do solo.
+				
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/edafologia1.png" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Edafologia</h4>
+              <h4 class="subheading">Teoria mineral de nutrição das plantas</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+               Somente em 1803 o alemão Justus von Liebig lança a teoria mineral de nutrição das plantas – Lei do Mínimo. <br/>
+			   Compreendido como o processo de regulação nutricional das plantas na qual todas as concentrações dos nutrientes necessitam ser ofertados minimamente para as plantas.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/rigolito.png" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Rigolito</h4>
+              <h4 class="subheading">Colocar aqui o que esse "Rigolito"</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Surge o termo Pedologia, levando a um conceito mais material e constitutivo, entendido como material solto, inconsolidado, na superfície terrestre, originado pelo intemperismo das rochas no local ou transportado.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/corpo_natural_organizado.png" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Vasilii Vasilevich Dokuchaev</h4>
+              <h4 class="subheading">Corpo natural organizado</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Considerado o pai da Ciência dos Solos. <br/>
+				Conceito surge na segunda metade do século XIX. <br/>
+				Evolução de outras ciências como Química, Geologia.
+				
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/sistema_aberto.png" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Teoria dos sistemas</h4>
+              <h4 class="subheading">Sistema Aberto</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Trata-se de uma visão holística, considerados sistemas abertos complexos de trocas de matéria e energia, um sistema dinâmico, com fluxo minerais e dágua.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+		</div>
+	</section>	
+	
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
+    <section class="section">
+        <div class="container">
+		 
+            
+				<div class="phone">
+                        <img class="img-responsive img-rounded" src="img/voce_sabia.png">
+                    </div>
+					
+					
+             
+			<div class="row">
+        <div class="col-md-4">
+          <h2>A Vantagem de Comer Terra</h2>
+		  <img class="img-responsive img-rounded" src="img/comer_terra.png"/>
+          <p class="text-justify">Em 2009, um grupo de estudantesde biologia da Tufts University reuniu-se para comer terra. Eles moeram pequenos torrões de argila e ingeriram o pó para descobrir, pela primeira vez, o sabor desse material. Esse estranho teste de sabor era parte de um curso de medicina darwiniana oferecido por um de nós (Starks). Os alunos estavam estudando a evolução da geofagia – a prática de comer terra, principalmente solos semelhantes à argila, coisa que animais e pessoas praticam há milênios.</p>
+          <p><a class="btn btn-default" target="_blank" href="http://www2.uol.com.br/sciam/artigos/a_vantagem_de_comer_terra_imprimir.html" role="button">Saiba mais &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Minúsculos grãos, imensos benefícios</h2>
+          <img class="img-responsive img-rounded" src="img/areia.png"/>
+		  <p class="text-justify">Sem a areia, dificilmente haveria alimento e água para o nosso consumo. Como assim? De uma forma ou de outra, todos os alimentos se originam dos vegetais. A areia e seus “primos” silte e argila, outros produtos de matéria rochosa esfarelada, fornecem os minerais de que as plantas necessitam. Além disso, a areia presente no solo permite a circulação do ar e da água, de forma que as raízes das plantas absorvem facilmente os nutrientes do solo(2003). </p>
+          <p><a class="btn btn-default" target="_blank" href="http://wol.jw.org/pt/wol/d/r5/lp-t/102003326?q=%C3%A1gua&p=par" role="button">Saiba mais &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>A Crise de Fertilidade do Solo na África e a Fome que Vem Aí</h2>
+          <img class="img-responsive img-rounded" src="img/solo_africa.png"/>
+		  <p class="text-justify">A crise de fertilidade do solo africano não é
+novidade para quem acompanha as notícias.
+Porém, a rápida velocidade da tragédia que
+assoma – o fato de que dezenas de milhões de
+pessoas podem morrer de fome nos próximos
+quatro ou cinco anos – é, de fato, uma
+informação da maior importância. O continente
+está diante de uma tragédia iminente: uma
+Grande Fome na África (2009).</p>
+          <p><a class="btn btn-default" href="http://www.akatu.org.br/Content/Akatu/Arquivos/file/Publicacoes/EstadodoMundo2011_portugues.pdf" role="button">Saiba mais &raquo;</a></p>
+        </div>
+      </div>
+			
+			
+			
+			
+			
+        </div>
+		<br/>
+	<br/>
+	<br/>
+	<br/>
+    </section>
+	<br/>
+	<br/>
+	<section class="section">
+        <div class="container">
+		 
+            
+				<div class="phone">
+                        <img class="img-responsive img-rounded" src="img/certo_errado.png">
+                 
+				</div>
+					
+					
+             
+			<div class="row">
+	    <h3 class="text-center"><span style="padding-right:10px" class="glyphicon glyphicon-search" aria-hidden="true"></span>Passe o mouse para descobrir</h3><br>
+	    <hr>
+		<div class="story-content">
+          <div class="row story-hover">
+            <div class="col-sm-4 col-md-4">
+              <div class="story">
+                <a class="overlay" href="#">
+                  <span class="story-content">
+                    <i class="fa" aria-hidden="true"><img class="img-responsive" src="img/errado.png"/></i><br>
+                    <span style="color:black">Errado</span> <br/>
+					Os solos também se formam a partir de material orgânico.
+
+                  </span>
+                  <img src="img/quadro1.png" class="img-responsive" alt="about">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-md-4">
+              <div class="story">
+                <a class="overlay" href="#">
+                  <span class="story-content">
+                    <i class="fa" aria-hidden="true"><img class="img-responsive" src="img/errado.png"/></i><br>
+                    <span style="color:black">Errado</span> <br/>
+					Os níveis de nutrientes devem ser atendidos em concentrações mínimas para que não haja traços de deficiências.
+                  </span>
+                  <img src="img/quadro2.png" class="img-responsive" alt="about">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="story">
+                <a class="overlay" href="#">
+                  <span class="story-content">
+                    <i class="fa" aria-hidden="true"><img class="img-responsive" src="img/certo.png"/></i><br>
+                    <span style="color:black">Certo</span> <br/>
+                    Pois sabe-se da constituição mineralógica dos solos, da solução do solo e dos gases presentes.
+                  </span>
+                  <img src="img/quadro3.png" class="img-responsive" alt="about">
+                </a>
+              </div>
+            </div>
+
+			
+			
+			
+			
+			
+        </div>
+    </section>
+	
+	
+	
+	 
+	
+    <footer class="footer text-center">
+        <div class="container">
+            <small>© Copyright 2015. Criado por <a href="http://www.9solucoes.com.br">9S</a></small>
+        </div>
+    </footer>
+</div>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/popover.js"></script>
+	<script src="js/tooltip.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/botao.js"></script>
+	<script src="js/botao2.js"></script>
+	
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

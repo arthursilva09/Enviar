@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+       
+<head>
+        {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" >
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/styleprofessor.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row profile">
+            <div class="col-md-3">
+                <div class="profile-sidebar">
+                    <!-- SIDEBAR USERPIC -->
+                    <div class="profile-userpic">
+                        <img src="https://asktabby.files.wordpress.com/2013/03/wpid-photo-mar-6-2013-1015-pm.jpg" class="img-responsive rounded-circle" alt="">
+                    </div>
+                    <!-- END SIDEBAR USERPIC -->
+                    <!-- SIDEBAR USER TITLE -->
+                    <div class="profile-usertitle">
+                        <div class="profile-usertitle-name">
+                            {{nome}}
+                        </div>
+                        
+                        {% block type %}
+                        {% endblock %}
+
+                    </div>
+                    <!-- END SIDEBAR USER TITLE -->
+                    <!-- SIDEBAR BUTTONS -->
+                    <div class="profile-userbuttons">
+                        <button type="button" class="btn btn-success btn-sm">Follow</button>
+                        <button type="button" class="btn btn-danger btn-sm">Message</button>
+                    </div>
+                    <!-- END SIDEBAR BUTTONS -->
+                    <!-- SIDEBAR MENU -->
+                    <div class="profile-usermenu">
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="#">
+                                <i class="glyphicon glyphicon-home"></i>
+                                Home </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                <i class="glyphicon glyphicon-ok"></i>
+                                Conteúdos </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                <i class="glyphicon glyphicon-user"></i>
+                                Configurações de conta </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                <i class="glyphicon glyphicon-flag"></i>
+                                Ajuda </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END MENU -->
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="profile-content">
+                    <div class="row">
+                        
+
+                        {% block sala1 %}
+
+                        {% endblock %}
+                            
+                        {% block sala2 %}
+                        
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</body>
+</html>
